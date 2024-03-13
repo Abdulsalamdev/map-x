@@ -9,12 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "index-top": "url(/images/indextop.png)",
+        "index-bottom": "url(/images/indexbottom.png)",
+        "sign-bg": "url(/images/sign-bg.png)",
       },
       fontFamily: {
         switzer: "Switzer",
+      },
+      colors: {
+        "RED-INFERNO": "#BF2018",
+        MAGNET: "#515055",
+        "PARTRIDGE-GREY": "#8F9198",
+        "COAL-MINE": "#54565B",
+        "GATEWAY-GREY": "#9FA19C",
+        "HIGHWAY-TO-HELL": "#C81107",
+      },
+      screens: {
+        lg: "1030",
       },
     },
   },

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.index-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #bf2018;
+  border: 2px solid #bf2018;
+  color: white;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.index-btn:hover {
+  background-color: #d84740;
+  color: #fff;
+}

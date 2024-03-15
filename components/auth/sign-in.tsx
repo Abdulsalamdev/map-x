@@ -59,10 +59,7 @@ export const SignIn = () => {
               usernames and passwords
             </p>
           </div>
-          <form
-            className="bg-white rounded-[16px] px-[clamp(20px,1.5vw,30px)] shadow-lg "
-            onSubmit={myForm.onSubmit(() => mutate())}
-          >
+          <form className="bg-white rounded-[16px] px-[clamp(20px,1.5vw,30px)] shadow-lg ">
             <p className="text-[24px] text-COAL-MINE font-switzer font-semibold pt-[30px]">
               Sign in with SSO
             </p>
@@ -110,13 +107,14 @@ export const SignIn = () => {
                 Forgot Password
               </span>
             </div>
-            <button
+            <Link
+              href={"/dashboard"}
+              onClick={() => myForm.onSubmit(() => console.log(myForm.values))}
               className="flex items-center w-[100%] index-btn justify-center mb-[30px] text-center text-[white] text-[16px]"
-              type="submit"
             >
               {/* Sign in */}
               {isPending ? <Loader size="md" /> : <span>Sign in</span>}
-            </button>
+            </Link>
           </form>
         </div>
       </div>

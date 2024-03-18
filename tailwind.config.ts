@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         switzer: "Switzer",
+        Montserrat: "Montserrat",
       },
       colors: {
         "RED-INFERNO": "#BF2018",
@@ -23,6 +24,8 @@ const config: Config = {
         "COAL-MINE": "#54565B",
         "GATEWAY-GREY": "#9FA19C",
         "HIGHWAY-TO-HELL": "#C81107",
+        "BLOOD-ORGAN": "#65110D",
+        "WHITE-SMOKE": "#F5F5F6",
       },
       screens: {
         lg: "1030",

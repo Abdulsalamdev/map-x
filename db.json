@@ -2,5 +2,84 @@
   "login": {
     "email": "abdulsalam@gmail.com",
     "password": "Abu1234567$"
-  }
+  },
+  "Global-Dashboard": [
+    {
+      "id": "1",
+      "name": "",
+      "ammount": ""
+    },
+    {
+      "id": "2",
+      "name": "",
+      "ammount": ""
+    },
+    {
+      "id": "3",
+      "name": "",
+      "ammount": ""
+    },
+    {
+      "id": "4",
+      "name": "",
+      "ammount": ""
+    },
+    {
+      "id": "5",
+      "name": "",
+      "ammount": ""
+    },
+    {
+      "id": "6",
+      "name": "",
+      "ammount": ""
+    }
+  ],
+  "FEO_Ranking": [
+    {
+      "id": "1",
+      "name": "",
+      "No_Of_Farmers": "",
+      "Mapped_Farms": "",
+      "Progess": ""
+    },
+    {
+      "id": "2",
+      "name": "",
+      "No_Of_Farmers": "",
+      "Mapped_Farms": "",
+      "Progess": ""
+    },
+    {
+      "id": "3",
+      "name": "",
+      "No_Of_Farmers": "",
+      "Mapped_Farms": "",
+      "Progess": ""
+    },
+    {
+      "id": "4",
+      "name": "",
+      "No_Of_Farmers": "",
+      "Mapped_Farms": "",
+      "Progess": ""
+    }
+  ],
+  "FEOs": [
+    {
+      "id": "1",
+      "neme": "",
+      "country": ""
+    },
+    {
+      "id": "1",
+      "neme": "",
+      "country": ""
+    },
+    {
+      "id": "1",
+      "neme": "",
+      "country": ""
+    }
+  ]
 }

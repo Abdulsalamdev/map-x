@@ -57,15 +57,15 @@ export const SideBar = () => {
     },
   ];
   return (
-    <div className="px-[16px] py-[40px] bg-BLOOD-ORGAN h-[100vh] flex flex-col justify-between transition duration-700 ease-in">
+    <div
+      className={`px-[16px] py-[40px] bg-BLOOD-ORGAN h-[100vh] flex flex-col justify-between relative duration-300  ${
+        toggle === true ? "w-[80px]" : "w-[200px]"
+      }`}
+    >
       <div>
         <div className="flex gap-[10px] items-center font-bold font-Montserrat pb-[40px] relative">
           <Mapx />{" "}
-          <span
-            className={`text-[#FFFFFF] text-[24px] ${
-              toggle === true ? " hidden" : "block"
-            } `}
-          >
+          <span className={`text-[#FFFFFF] text-[24px] ${toggle && "hidden"}`}>
             MapX
           </span>
           <div
@@ -97,8 +97,8 @@ export const SideBar = () => {
                 {item.icon}
 
                 <span
-                  className={`text-[#FFFFFF] text-[16px] font-switzer font-normal  ${
-                    toggle === true ? " hidden" : "block"
+                  className={`text-[#FFFFFF] text-[16px] font-switzer font-normal ${
+                    toggle && "hidden"
                   }`}
                 >
                   {item.name}
@@ -126,8 +126,8 @@ export const SideBar = () => {
               {item.icon}
 
               <span
-                className={`text-[#FFFFFF] text-[16px] font-switzer font-normal  ${
-                  toggle === true ? " hidden" : "block"
+                className={`text-[#FFFFFF] text-[16px] font-switzer font-normal ${
+                  toggle && "hidden"
                 }`}
               >
                 {item.name}

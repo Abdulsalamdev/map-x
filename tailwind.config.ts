@@ -26,6 +26,7 @@ const config: Config = {
         "HIGHWAY-TO-HELL": "#C81107",
         "BLOOD-ORGAN": "#65110D",
         "WHITE-SMOKE": "#F5F5F6",
+        "BLACK-HOWL": "#1B1E2C",
       },
       screens: {
         lg: "1030",

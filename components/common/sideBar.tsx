@@ -57,7 +57,7 @@ export const SideBar = () => {
     },
   ];
   return (
-    <div className="px-[16px] py-[40px] bg-BLOOD-ORGAN h-[100vh] flex flex-col justify-between transition duration-700 ease-in items-center">
+    <div className="px-[16px] py-[40px] bg-BLOOD-ORGAN h-[100vh] flex flex-col justify-between transition duration-700 ease-in">
       <div>
         <div className="flex gap-[10px] items-center font-bold font-Montserrat pb-[40px] relative">
           <Mapx />{" "}

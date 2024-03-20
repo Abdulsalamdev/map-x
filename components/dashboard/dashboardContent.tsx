@@ -1,5 +1,7 @@
 import React from "react";
 import { DashMenu } from ".";
+import { TextInput } from "@mantine/core";
+import { NotificationBing, SearchNormal } from "iconsax-react";
 
 export const DashboardContent = () => {
   return (
@@ -14,6 +16,29 @@ export const DashboardContent = () => {
               Global Dashboard
             </span>
             <DashMenu />
+          </div>
+        </div>
+        <div className="bg-[#FFFFFF] rounded-[30px] px-[16px] py-[10px] flex items-center gap-[16px]">
+          <div className=" bg-WHITE-SMOKE flex gap-[5px] items-center px-[15px] py-[7px] rounded-[30px]">
+            <SearchNormal size="14" color="#8F9198" />
+            <TextInput
+              placeholder="Search"
+              styles={{
+                input: {
+                  outline: "none",
+                  width: "clamp(150px,17vw,270px)",
+                  border: "none",
+                  backgroundColor: "#F5F5F6",
+                  color: "#8F9198",
+                  "::placeholder": {
+                    fontSize: "14px",
+                  },
+                },
+              }}
+            />
+          </div>
+          <div className="pulser">
+            <NotificationBing size="24" color="#8F9198" />
           </div>
         </div>
       </div>

@@ -27,6 +27,7 @@ const config: Config = {
         "BLOOD-ORGAN": "#65110D",
         "WHITE-SMOKE": "#F5F5F6",
         "BLACK-HOWL": "#1B1E2C",
+        "CUMBERLAND-FOG": "#DADADD",
       },
       screens: {
         lg: "1030",

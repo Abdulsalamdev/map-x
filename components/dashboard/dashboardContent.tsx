@@ -2,6 +2,8 @@ import React from "react";
 import { DashMenu } from ".";
 import { TextInput } from "@mantine/core";
 import { NotificationBing, SearchNormal } from "iconsax-react";
+import { Widget } from "../icons/widget";
+import Image from "next/image";
 
 export const DashboardContent = () => {
   return (
@@ -37,11 +39,12 @@ export const DashboardContent = () => {
               }}
             />
           </div>
-          <div className="pulser">
-            <NotificationBing size="24" color="#8F9198" />
-          </div>
+          <NotificationBing size="24" color="#8F9198" />
+          <Widget />
+          <Image src={"/images/profile.png"} alt={""} width={30} height={30} />
         </div>
       </div>
     </div>
   );
 };
+2;

@@ -44,6 +44,7 @@ export const DashboardContent = () => {
           <Image src={"/images/profile.png"} alt={""} width={30} height={30} />
         </div>
       </div>
+      <div></div>
     </div>
   );
 };

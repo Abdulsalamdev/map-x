@@ -6,4 +6,5 @@ export const builder = createBuilder({
   auth: {
     login: (data: Login) => JsonServer.post("/login", data),
   },
+  globalDashboard: {},
 });

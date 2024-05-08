@@ -11,7 +11,6 @@ import { toast } from "react-toastify";
 import { fireApp } from "@/api/firebaseconfig";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 export const SignIn = () => {
-  let auth = getAuth();
   const { push } = useRouter();
   const { mutate, isPending } = useMutation({
     mutationFn: () => builder.use().auth.login(myForm.values),

@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import { cookieStorage } from "@ibnlanre/portal";
 import React from "react";
 import { toast } from "react-toastify";
-import { fireApp } from "@/api/firebaseconfig";
+import { firebaseApp } from "@/api/firebaseconfig";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 export const SignIn = () => {
   const { push } = useRouter();
